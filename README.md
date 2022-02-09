@@ -1,23 +1,20 @@
 # DCxKEEPxTALKiNGzzz
-This project will involve using one single python script called unspendable.
-You can download it at https://github.com/johnrigler/unspendable.git
 
-I also have some bash function that I use. I tend to work with a tool
-which I developed called ALP. I also use this name to refer to a 
-sort of universal ledger project where folks can craft their own genesis block
-and thus create a clone of their favorite ledger.
+Here I render a broadcast stream into a format that can be express across various medium.
 
-Here I render a broadcast stream into format that can be transformed into a digibyte
-transaction. All of the data is encapsulated into a set of bash functions which
-spits out a valid digibyte transaction. Because the transaction order will get mixed up,
-we must spend a number of characters on ordering the message.
+Although this system can be easily expressed as a single transaction on a slew of different
+ledgers, it is currently only the potential of a transaction. If you burn to these 
+addresses, then it becomes your responsibility to report that small destruction of your
+own personal funds to the proper authorities. 
 
-Thus the unspendable command must be used to create a special set of prefix rules:
+The unspendable command is used to create a special set of prefix rules:
 
 The first character is always D, the prefix always ends with x
 The second character is the "speaker" or "voice"
 Satoshi Codes are used to represent line position.
 
-The transaction writes to digibyte production network.
-
 To run, just execute ./cast.bash and a list of obviously unspendable addresses will be sent to stdio. 
+Other conventions of the system are loosely defined, but DAx represents author, DBx speaker, DCx title, and DDx and DEx are an ipfs representation of the URL:
+
+https://www.youtube.com/watch?v=qDTpJGM4Q7I
+(Pink Floyd - Keep Talking | Special Edition )
