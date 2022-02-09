@@ -19,3 +19,5 @@ The second character is the "speaker" or "voice"
 Satoshi Codes are used to represent line position.
 
 The transaction writes to digibyte production network.
+
+To run, just execute ./cast.bash and a list of obviously unspendable addresses will be sent to stdio. 
